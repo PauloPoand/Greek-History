@@ -31,6 +31,10 @@ recipes.remove(<primal:steel_plate>);
 
 recipes.remove(<thermalfoundation:material:352>);
 
+//iron
+
+recipes.remove(<immersiveengineering:metal:39>);
+
 
 
 var stoneAnvilPair as IItemStack[][] = [
@@ -39,6 +43,7 @@ var stoneAnvilPair as IItemStack[][] = [
 	 [<immersiveengineering:metal:31>, <thermalfoundation:material:132>],
 	 [<immersiveengineering:metal:38>, <thermalfoundation:material:160>],
      [<immersiveengineering:metal:38>, <immersiveengineering:metal:8>],
+	 [<immersiveengineering:metal:39>, <minecraft:iron_ingot>],
 ];
 
 for pair in stoneAnvilPair {

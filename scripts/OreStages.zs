@@ -26,8 +26,6 @@ mods.orestages.OreStages.addReplacement("survival_age", <greekmilitary:tinore>);
 mods.orestages.OreStages.addReplacement("survival_age", <galacticraftcore:basic_block_core:5>);
 mods.orestages.OreStages.addReplacement("survival_age", <galacticraftcore:basic_block_core:6>);
 mods.orestages.OreStages.addReplacement("survival_age", <galacticraftcore:basic_block_core:7>);
-mods.orestages.OreStages.addReplacement("survival_age", <appliedenergistics2:charged_quartz_ore>);
-mods.orestages.OreStages.addReplacement("survival_age", <appliedenergistics2:quartz_ore>);
 mods.orestages.OreStages.addReplacement("survival_age", <abyssalcraft:abyore>);
 mods.orestages.OreStages.addReplacement("survival_age", <thermalfoundation:ore_fluid:2>);
 mods.orestages.OreStages.addReplacement("survival_age", <thermalfoundation:ore>);
@@ -79,8 +77,6 @@ mods.orestages.OreStages.addReplacement("natures_magic_age", <greekmilitary:tino
 mods.orestages.OreStages.addReplacement("natures_magic_age", <galacticraftcore:basic_block_core:5>);
 mods.orestages.OreStages.addReplacement("natures_magic_age", <galacticraftcore:basic_block_core:6>);
 mods.orestages.OreStages.addReplacement("natures_magic_age", <galacticraftcore:basic_block_core:7>);
-mods.orestages.OreStages.addReplacement("natures_magic_age", <appliedenergistics2:charged_quartz_ore>);
-mods.orestages.OreStages.addReplacement("natures_magic_age", <appliedenergistics2:quartz_ore>);
 mods.orestages.OreStages.addReplacement("natures_magic_age", <abyssalcraft:abyore>);
 mods.orestages.OreStages.addReplacement("natures_magic_age", <thermalfoundation:ore_fluid:2>);
 mods.orestages.OreStages.addReplacement("natures_magic_age", <thermalfoundation:ore>);

@@ -466,3 +466,130 @@ recipes.addShaped("squeezer_recipe", squeezer,
     [treated_stick, null, treated_stick],
     [treated_wood, iron_ingot, treated_wood]
 ]);
+
+//lantern 
+
+recipes.remove(<immersiveengineering:metal_decoration2:4>);
+
+val immersive_lantern = <immersiveengineering:metal_decoration2:4>;
+val torch = <minecraft:torch>;
+val glass_pane = <minecraft:glass_pane>;
+val iron_plate = <immersiveengineering:metal:39>;
+val flashbulb_immersive = <immersiveengineering:toolupgrade:10>;
+
+recipes.addShaped("immersive_lantern_recipe", immersive_lantern, 
+[
+    [torch, iron_plate, torch],
+    [glass_pane, flashbulb_immersive, glass_pane],
+    [torch, iron_plate, torch]
+]);
+
+//steel rod
+
+recipes.remove(<immersiveengineering:material:2>);
+
+// Sheetmetals
+//Steel Sheetmetal
+
+recipes.remove(<immersiveengineering:sheetmetal:8>);
+
+val steelsheetmetal = <immersiveengineering:sheetmetal:8>;
+
+recipes.addShaped("steelsheetmetal_recipe", steelsheetmetal, 
+[
+    [steel_plate, steel_plate, steel_plate],
+    [steel_plate, null, steel_plate],
+    [steel_plate, steel_plate, steel_plate]
+]);
+
+// Iron Sheetmetal
+
+recipes.remove(<immersiveengineering:sheetmetal:9>);
+
+val ironsheetmetal = <immersiveengineering:sheetmetal:9>;
+
+recipes.addShaped("ironsheetmetal_recipe", ironsheetmetal, 
+[
+    [iron_plate, iron_plate, iron_plate],
+    [iron_plate, null, iron_plate],
+    [iron_plate, iron_plate, iron_plate]
+]);
+
+// Radiator Block
+
+recipes.remove(<immersiveengineering:metal_decoration0:7>);
+
+val radiator_block = <immersiveengineering:metal_decoration0:7>;
+val copper_ingot = <thermalfoundation:material:128>;
+val steel_ingot = <thermalfoundation:material:160>;
+val lapis_block = <minecraft:lapis_block>;
+
+recipes.addShaped("radiator_block_recipe", radiator_block, 
+[
+    [steel_ingot, copper_ingot, steel_ingot],
+    [copper_ingot, lapis_block, copper_ingot],
+    [steel_ingot, copper_ingot, steel_ingot]
+]);
+
+// Hempcrete
+
+recipes.remove(<immersiveengineering:stone_decoration:4>);
+
+val hempcrete = <immersiveengineering:stone_decoration:4>;
+val hemp_fiber = <immersiveengineering:material:4>;
+
+recipes.addShaped("hempcrete_recipe", hempcrete, 
+[
+    [livingrock, livingrock, livingrock],
+    [hemp_fiber, hemp_fiber, hemp_fiber],
+    [livingrock, livingrock, livingrock]
+]);
+
+// Tiny Dry Rubber
+
+recipes.remove(<industrialforegoing:tinydryrubber>);
+
+val tinydryrubber = <industrialforegoing:tinydryrubber>;
+val exhaust_steam_bucket = <forge:bucketfilled>.withTag({FluidName: "exhauststeam", Amount: 1000});
+
+recipes.addShaped("tinydryrubber_recipe", tinydryrubber, 
+[
+    [exhaust_steam_bucket, exhaust_steam_bucket, exhaust_steam_bucket],
+    [exhaust_steam_bucket, coralium_pearl, exhaust_steam_bucket],
+    [exhaust_steam_bucket, exhaust_steam_bucket, exhaust_steam_bucket]
+]);
+
+// Reinforced Blast Brick
+
+recipes.remove(<immersiveengineering:stone_decoration:2>);
+
+val reinforced_blast_brick = <immersiveengineering:stone_decoration:2>;
+val plastic = <industrialforegoing:plastic>;
+
+recipes.addShapeless("reinforced_blast_brick_recipe", reinforced_blast_brick,[plastic, blast_brick]);
+
+// electrode blueprint
+
+recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}));
+
+val electrode_blueprint = <immersiveengineering:blueprint>.withTag({blueprint: "electrode"});
+
+recipes.addShaped("electrode_blueprint_recipe", electrode_blueprint,
+[
+    [plastic, null, plastic],
+    [lapis_block, lapis_block, lapis_block],
+    [paper, paper, paper]
+]);
+
+// Graphite ingot
+
+val graphite_ingot = <immersiveengineering:material:19>;
+val ink_sac = <minecraft:dye>;
+val gold_ingot = <minecraft:gold_ingot>;
+
+recipes.addShaped("graphite_ingot_recipe", graphite_ingot,
+[
+    [ink_sac, ink_sac, ink_sac],
+    [ink_sac, gold_ingot, ink_sac],
+    [ink_sac, ink_sac, ink_sac]
+]);
